@@ -1,0 +1,1 @@
+﻿--update tbluser set sAddress1='NEW DELHI',sAddress2='AE(E)-III,  DED-41, CPWD, NEW DELHI', sContactNumber='8130444853' where nUserID=104
