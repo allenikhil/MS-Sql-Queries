@@ -1,9 +1,7 @@
-﻿SELECT [sPaymentModes],* FROM [dbo].[tblTender] WHERE [nTenderID]=77454
+﻿SELECT sMessage,* FROM [dbo].[tblOnlinePayment] WHERE [nPaymentID]=78213
+--UPDATE [dbo].[tblOnlinePayment] SET [sMessage]='success' WHERE [nPaymentID]= 78213   
 
---UPDATE [dbo].[tblTender] SET [sPaymentModes]='105,102,103,104,108,110,111,101' WHERE [nTenderID]=77454
 
-SELECT [sPaymentModes],* FROM [dbo].[tblTender] 
-
-SELECT * FROM [dbo].[tblOnlinePayment]
-
---UPDATE [dbo].[tblOnlinePayment] SET [sMessage]='success' WHERE [nPaymentID]=86213
+--INSERT INTO [dbo].[tblOnlinePayment] ( [nProcurementID], [nSupplierUserID], [nScheduleID], [nPaymentType], [nPaymentGatewayType], [nPaymentMode], [nBankID], [nAmount], [sChallanNo], [sInfavourOf], [sBankName], [sResponseCode], [sMessage], [sSuccessStatus], [sRemoteIP], [sRemoteHost], [sTransactionID], [sPostDate], [dtPaymentDate], [dtValidUpto], [nBankTransCharge], [nBankTransChargePercentage], [sTransactionType], [sUTRNo], [sPayeeAccNo], [sPayeeIFSCCode], [bRefund], [sBankRefNum], [sUnMappedStatus], [sPgType], [sTxnMode], [sCardNum], [sPayUMoneyId], [sCreditAccNo], [sPayeeName], [sRemarks], [sVerifyRemarks], [dtRefundInitiated], [dtRefundCompleted], [sRefundType], [nRefundInitiatedBy], [sRefundInitiatedName], [sBGFileName], [sBGFilePath], [nSortOrder], [sActive], [nCreatedUserID], [nUpdatedUserID], [dtCreated], [dtLastModified], [sARNno], [sFilePath], [sRemarksExempted], [bRefundInitiatedDep], [nAmountNew])
+--VALUES ( 0, 5, 0, 104, 101, 102, 470, 120.00, NULL, NULL, NULL, '0', 'success', 's', '0:0:0:0:0:0:0:1', NULL, '171900229', '20-08-2015 09:35:19', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, '0', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 'Y', 5, NULL, '20150820 09:35:05.720', '20150820 09:35:27.407', NULL, NULL, NULL, 0, NULL);
+--

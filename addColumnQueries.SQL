@@ -67,6 +67,11 @@ UPDATE tblSupplier SET [bMigratedUser]=1
 
 ALTER TABLE tblReviewSupplierPrivilege ADD nTenderID [int];
 
+-----------------------------------------------------------------------------------------
+ALTER TABLE tblOnlinePayment ADD [requestlog] [varchar] (MAX) NULL,
+  [responelog] [varchar] (MAX) NULL,
+  [refundrequestlog] [varchar] (MAX) NULL,
+  [refundresponelog] [varchar] (MAX) NULL;
 
 
 
